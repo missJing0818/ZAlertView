@@ -15,6 +15,7 @@
 		2F4CCC6E1E6A58F70041B99A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4CCC6C1E6A58F70041B99A /* LaunchScreen.storyboard */; };
 		2F4CCC791E6A58F70041B99A /* ZAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CCC781E6A58F70041B99A /* ZAlertViewTests.m */; };
 		2F4CCC841E6A58F70041B99A /* ZAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CCC831E6A58F70041B99A /* ZAlertViewUITests.m */; };
+		2F4CCC931E6A593B0041B99A /* ZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CCC921E6A593B0041B99A /* ZAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2F4CCC7F1E6A58F70041B99A /* ZAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4CCC831E6A58F70041B99A /* ZAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAlertViewUITests.m; sourceTree = "<group>"; };
 		2F4CCC851E6A58F70041B99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4CCC911E6A593B0041B99A /* ZAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAlertView.h; sourceTree = "<group>"; };
+		2F4CCC921E6A593B0041B99A /* ZAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2F4CCC621E6A58F70041B99A /* AppDelegate.m */,
 				2F4CCC641E6A58F70041B99A /* ViewController.h */,
 				2F4CCC651E6A58F70041B99A /* ViewController.m */,
+				2F4CCC911E6A593B0041B99A /* ZAlertView.h */,
+				2F4CCC921E6A593B0041B99A /* ZAlertView.m */,
 				2F4CCC671E6A58F70041B99A /* Main.storyboard */,
 				2F4CCC6A1E6A58F70041B99A /* Assets.xcassets */,
 				2F4CCC6C1E6A58F70041B99A /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4CCC931E6A593B0041B99A /* ZAlertView.m in Sources */,
 				2F4CCC661E6A58F70041B99A /* ViewController.m in Sources */,
 				2F4CCC631E6A58F70041B99A /* AppDelegate.m in Sources */,
 				2F4CCC601E6A58F70041B99A /* main.m in Sources */,
